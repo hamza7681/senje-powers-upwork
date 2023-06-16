@@ -5,8 +5,7 @@ import MainNavbar from "../components/Navbar/MainNavbar";
 const DashboardPage = () => {
   return (
     <>
-      <MainNavbar />
-      <Dashboard />
+      <MainNavbar component={<Dashboard />} name='Dashboard' />
     </>
   );
 };
