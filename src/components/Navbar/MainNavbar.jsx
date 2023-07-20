@@ -7,7 +7,7 @@ import IconButton from "@mui/material/IconButton";
 import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import { FaBars } from "react-icons/fa";
-
+import Sidebar from "./Sidebar.jsx";
 const drawerWidth = 240;
 
 const MainNavbar = (props) => {
@@ -19,8 +19,7 @@ const MainNavbar = (props) => {
   };
 
   const drawer = <div>
-    {/* sidebar content here  */}
-    
+    <Sidebar /> 
     </div>;
 
   const container =
